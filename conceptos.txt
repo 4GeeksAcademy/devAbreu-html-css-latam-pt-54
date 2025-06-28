@@ -1,0 +1,33 @@
+Repositorio (Repo):
+    - Es donde se almacena todo el codigo junto historial de cambios.
+
+Commit:
+    - Un punto de guardado en el historial del proyecto. Cada commit tiene:
+        - Un mensaje descriptivo
+        - Un identificador unico (hash SHA-1)
+        - Una referencia al commit anterior
+
+Branch (rama):
+    - Una linea de desarrollo independiente. Por defecto, existe una rama llamada main o master.
+
+Merge:
+    - Unir dos ramas. Es combinar los cambios de una rama a otra.
+
+Conflictos:
+    - Ocurren cuando dos personas modifican la misma parte del codigo en ramas distintas.
+
+HEAD:
+    - Apunta al ultimo commit en la rama actual. Es el puntero del "presente".
+
+
+Comandos:
+    - git init ( Inicializa un repo )
+    - git clone ( Clonar un repo remoto )
+    - git add ( Añadir archivos )
+    - git commit (Hacer un commit )
+    - git push ( Envia los cambios hacia el origen ó servidor )
+    - git pull ( Traerse los cambios del repo remoto )
+    - git branch, git checkout, git switch ( Crear y cambiar entre ramas )
+    - git merge ( Fusionar ramas )
+    - git rebase ( Rebasar ramas )
+    - git diff ( Comparar diferencias )
